@@ -58,20 +58,20 @@
     <header class="header">
       <div class="header__content">
         <h1 class="title">Hey</h1>
-        <h1 class="title orange">I'm Miguel.</h1>
+        <h1 class="title light-blue">I'm Miguel.</h1>
         <p class="header__para">
-          I'm a <b class="orange">Software Engineer</b> with a passion for crafting efficient, scalable, and user-friendly applications.
+          I'm a <b class="light-blue">Software Engineer</b> with a passion for crafting efficient, scalable, and user-friendly applications.
           <br>
-          Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b>.
+          Here's a bit more <b class="light-blue click" onclick="toggleModal()">about me</b>.
         </p>
         <div class="social__list">
-          <a href="https://www.linkedin.com/in/david-bragg-5b23a1176/" target="_blank" class="social__link click">
+          <a href="https://www.linkedin.com/in/miguelgg/" target="_blank" class="social__link click">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/davidbr4gg" target="_blank" class="social__link click">
+          <a href="https://github.com/miguel231997" target="_blank" class="social__link click">
             <i class="fab fa-github"></i>
           </a>
-          <a href="./assets/David Bragg Resume.pdf" target="_blank" class="social__link click">
+          <a href="./assets/Miguel_Galindo_FullStack_Resume.docx.pdf" target="_blank" class="social__link click">
             <i class="fas fa-file-pdf"></i>
           </a>
         </div>
@@ -88,15 +88,12 @@
     <div class="modal">
       <div class="modal__half modal__about">
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
-        <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
+        <h4 class="modal__sub-title modal__sub-title--about">Software Engineer.</h4>
         <p class="modal__para">
-          I'm a 21 year-old Australian <b class="orange">frontend software engineer</b> with experience developing
-          websites for top-tech companies like <b class="orange">Google</b> and <b class="orange">Canva</b>.
+          I’m a <b class="light-blue">software engineer</b> with experience building scalable web apps using Java, Spring Boot, React, PHP, and MySQL. At <b class="light-blue">Rightpoint</b>
           <br>
-          I currently solve extremely difficult engineering
-          problems every day with <b class="orange">React</b>, <b class="orange">TypeScript</b> and <b
-            class="orange">MobX</b>
-          in Canva's Video team.
+          I delivered high-impact e-commerce features using <b class="light-blue">PHP</b>, <b class="light-blue">Docker</b> and <b class="light-blue">MYSQL.</b>
+          Outside of coding, I enjoy learning about AI and watching soccer nonstop.
         </p>
         <div class="modal__languages">
           <figure class="modal__language">
@@ -117,13 +114,13 @@
           </figure>
           <figure class="modal__language">
             <img class="modal__language--img"
-              src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png" alt="">
-            <span class="language__name">TypeScript</span>
+              src="/assets/java.svg" alt="">
+            <span class="language__name">Java</span>
           </figure>
 
           <figure class="modal__language">
-            <img class="modal__language--img" src="https://mobx.js.org/img/mobx.png" alt="">
-            <span class="language__name">MobX</span>
+            <img class="modal__language--img" src="/assets/php.svg" alt="">
+            <span class="language__name">PHP</span>
           </figure>
           <figure class="modal__language">
             <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
@@ -131,13 +128,13 @@
             <span class="language__name">React</span>
           </figure>
           <figure class="modal__language">
-            <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="">
-            <span class="language__name">Vue</span>
+            <img class="modal__language--img" src="/assets/spring-icon.png" alt="">
+            <span class="language__name">Spring Boot</span>
           </figure>
           <figure class="modal__language">
             <img class="modal__language--img"
-              src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png" alt="">
-            <span class="language__name">Nuxt</span>
+              src="/assets/docker-mark-blue.png" alt="">
+            <span class="language__name">Docker</span>
           </figure>
         </div>
       </div>
@@ -188,7 +185,7 @@
     <div class="container">
       <div class="row">
         <h1 class="section__title">
-          Here are some of my <span class="orange">projects</span>
+          Here are some of my <span class="light-blue">projects</span>
         </h1>
         <ul class="project__list">
           <li class="project">
@@ -197,18 +194,20 @@
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Google In-Store
+                  Soccer Stats App - Coming Soon
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Html, CSS, JavaScript, Vue, Vuex
+                  Java, Spring Boot, MySQL, React, JWT
                 </h4>
                 <p class="project__description--para">
-                  Google In-Store is a platform allowing Google retail employees to report any issues with their
-                  store products. Once an issue is reported, it is posted to an API which populates a separate
-                  platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was
-                  the sole
-                  front-end developer of this application.
+                  A full-stack web application that allows parents to register players, track performance stats (goals, assists, passes),
+                  and manage teams. I built and deployed both the backend and frontend, integrating secure role-based access and dynamic
+                  stat filtering. Designed for real-world use, this platform supports multiple teams and player rankings across the league.
                 </p>
+                <div class="project__description--links">
+                  <a href="#" target="_blank" class="cta-btn cta-btn--hero">See Live</a>
+                  <a href="#" target="_blank" class="cta-btn cta-btn--resume">Source Code</a>
+                </div>
                 <div class="project__description--links">
                   <a href="https://googleinstore.com.au/" class="project__description--link">
                     <i class="fas fa-link"></i>
@@ -219,44 +218,196 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/Frontend Simplified.png" class="project__img" alt="">
+              <img src="./assets/smartbrain.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Frontend Simplified
+                  Smart Brain/React Application
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Html, CSS, JavaScript, Vue, Vuex, Nuxt, Firebase
+                  React, Node.js, Express, PostgreSQL, Clarifai API, Heroku
                 </h4>
                 <p class="project__description--para">
-                  Frontend Simplified is a side project built to not only teach people how to code, but teach them how
-                  to get job ready in the quickest way possible. Users of this platform can join my 2,300+ member
-                  community
-                  including engineers from Google, Canva, Atlassian, Apple, Microsoft and Salesforce.
-                  The entire platform and courses was built by myself
-                  and I'm
-                  planning to
-                  release the MVP in the next few weeks.
+                  Smart Brain is a full-stack web app that uses Clarifai's AI to detect faces in images. Users can sign up, log in,
+                  and submit image URLs for face detection. I built the entire app from scratch, using React for the frontend and
+                  Node.js with Express for the backend, connected to a PostgreSQL database. The application is fully deployed and
+                  hosted on Heroku.
                 </p>
+                <div class="project__description--links">
+                  <a href="https://migs-smart-brain-app.herokuapp.com/" target="_blank" class="cta-btn cta-btn--hero">See Live</a>
+                  <a href="https://github.com/miguel231997/smart-brain" target="_blank" class="cta-btn cta-btn--resume">Source Code</a>
+                </div>
               </div>
             </div>
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/Eportfolio YT.png" class="project__img" alt="">
+              <img src="./assets/footieclub.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  E-Portfolio YouTube Tutorial
+                  FootieClub/React Application
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Html, CSS
+                  React, JavaScript, AirTable API, Netlify
                 </h4>
                 <p class="project__description--para">
-                  E-Portfolio built to help my social media followers learn basic CSS properties, layout and best
-                  practises -
-                  along with including tips along the way to help them land their first job.
+                  FootieClub is a social media-style platform built for soccer fans to share posts and interact with each other.
+                  I used React to build reusable components and integrated the AirTable API for dynamic content management.
+                  The application is fully deployed and hosted on Netlify.
                 </p>
+                <div class="project__description--links">
+                  <a href="https://condescending-engelbart-3d31db.netlify.app/" target="_blank" class="cta-btn cta-btn--hero">See Live</a>
+                  <a href="https://github.com/miguel231997/FootieClub" target="_blank" class="cta-btn cta-btn--resume">Source Code</a>
+                </div>
+                <div class="project__description--links">
+                  <a href="https://www.youtube.com/watch?v=C8BlRjB3vYI" target="_blank"
+                    class="project__description--link">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://github.com/davidbr4gg/davidbr4gg.github.io" target="_blank"
+                    class="project__description--link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://davidbr4gg.github.io/" target="_blank" class="project__description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/backiv.png" class="project__img" alt="">
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  The Back IV/React Application
+                </h3>
+                <h4 class="project__description--sub-title">
+                  React, Ruby on Rails, PostgreSQL, Netlify
+                </h4>
+                <p class="project__description--para">
+                  The Back IV is a blog-style web application built with React and a Ruby on Rails backend. It features full
+                  CRUD functionality and user authentication, connected to a PostgreSQL database. The project is deployed and
+                  hosted on Netlify.
+                </p>
+                <div class="project__description--links">
+                  <a href="https://modest-mestorf-b49fbf.netlify.app/" target="_blank" class="cta-btn cta-btn--hero">See Live</a>
+                  <a href="https://github.com/miguel231997/the-back-iv-blogs" target="_blank" class="cta-btn cta-btn--resume">Source Code</a>
+                </div>
+                <div class="project__description--links">
+                  <a href="https://www.youtube.com/watch?v=C8BlRjB3vYI" target="_blank"
+                    class="project__description--link">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://github.com/davidbr4gg/davidbr4gg.github.io" target="_blank"
+                    class="project__description--link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://davidbr4gg.github.io/" target="_blank" class="project__description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/unityLogo.PNG" class="project__img" alt="">
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  The Adventure of the Revenge of Pasquale/Unity3D Game
+                </h3>
+                <h4 class="project__description--sub-title">
+                  Unity3D, C#, Visual Studio
+                </h4>
+                <p class="project__description--para">
+                  A 2D side-scrolling game built in Unity3D using C# and Visual Studio. Developed in a team, we created original art,
+                  animations, and over 20 scripts handling gameplay mechanics like player movement, enemy AI, environment interaction,
+                  and physics. The game features a main menu, cut scenes, and in-game dialogue to enhance storytelling.
+                </p>
+                <div class="project__description--links">
+                  <a href="https://mgalindo23.itch.io/the-adventure-of-the-revenge-of-pasqual" target="_blank" class="cta-btn cta-btn--hero">See Live</a>
+                  <a href="https://github.com/miguel231997/The_Adveture_Of_Pasquale" target="_blank" class="cta-btn cta-btn--resume">Source Code</a>
+                </div>
+                <div class="project__description--links">
+                  <a href="https://www.youtube.com/watch?v=C8BlRjB3vYI" target="_blank"
+                    class="project__description--link">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://github.com/davidbr4gg/davidbr4gg.github.io" target="_blank"
+                    class="project__description--link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://davidbr4gg.github.io/" target="_blank" class="project__description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/find_it.png" class="project__img" alt="">
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  Find-IT-BookStore
+                </h3>
+                <h4 class="project__description--sub-title">
+                  JavaScript, HTML, CSS, GitHub Pages
+                </h4>
+                <p class="project__description--para">
+                  Find-IT-BookStore is a responsive web app that allows users to search for Computer Science books through a public API.
+                  Built with JavaScript and styled using advanced CSS techniques like Flexbox for clean layout. The project is deployed
+                  on GitHub Pages, with version control managed through Git for ongoing development and future feature additions.
+                </p>
+                <div class="project__description--links">
+                  <a href="https://miguel231997.github.io/Find-IT-BookStore/" target="_blank" class="cta-btn cta-btn--hero">See Live</a>
+                  <a href="https://github.com/miguel231997/Find-IT-BookStore" target="_blank" class="cta-btn cta-btn--resume">Source Code</a>
+                </div>
+                <div class="project__description--links">
+  <a href="https://mgalindo23.itch.io/the-adventure-of-the-revenge-of-pasqual" target="_blank" class="cta-btn cta-btn--hero">See Live</a>
+  <a href="https://github.com/miguel231997/The_Adveture_Of_Pasquale" target="_blank" class="cta-btn cta-btn--resume">Source Code</a>
+</div>
+                <div class="project__description--links">
+                  <a href="https://www.youtube.com/watch?v=C8BlRjB3vYI" target="_blank"
+                    class="project__description--link">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://github.com/davidbr4gg/davidbr4gg.github.io" target="_blank"
+                    class="project__description--link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://davidbr4gg.github.io/" target="_blank" class="project__description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/MacBookPro-1.png" class="project__img" alt="">
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  MERN E-commerce/React Application
+                </h3>
+                <h4 class="project__description--sub-title">
+                  React, Node.js, Express, MongoDB, Mongoose, JWT, Axios
+                </h4>
+                <p class="project__description--para">
+                  Built an e-commerce web app in a team of three focused on selling eco-friendly products. Users can browse items,
+                  create accounts, and make purchases securely. We implemented user authentication with JWT, set up a MongoDB
+                  database with Mongoose, and connected the backend to the frontend using Express and Axios for full CRUD functionality.
+                </p>
+                <div class="project__description--links">
+                  <a href="https://ecoassembly.netlify.app/" target="_blank" class="cta-btn cta-btn--hero">See Live</a>
+                  <a href="https://github.com/miguel231997/eco-assembly" target="_blank" class="cta-btn cta-btn--resume">Source Code</a>
+                </div>
                 <div class="project__description--links">
                   <a href="https://www.youtube.com/watch?v=C8BlRjB3vYI" target="_blank"
                     class="project__description--link">
